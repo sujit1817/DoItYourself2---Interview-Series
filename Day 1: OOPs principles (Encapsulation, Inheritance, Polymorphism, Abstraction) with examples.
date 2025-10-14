@@ -1,0 +1,7 @@
+Encapsulation → Hiding fields(making them private), exposing via getters/setters.
+
+Inheritance → One class deriving from another(parent(superclass) and child(subclass) class).
+
+Polymorphism → Method overloading(compile time polymorphism static binding) & overriding(runtime polymorphism dynamic binding).
+
+Abstraction → Hiding implementation details, showing only functionality(like ATM).
