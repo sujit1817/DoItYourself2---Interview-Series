@@ -47,6 +47,8 @@ Inter-Thread communication
 2.notify();
 3.notifyAll();
 - The above three methods belong to java.lang.Object class. These are the final methods. 
+
+** Note::
 - These three methods must be called with a synchronized method or synchronized block. Any thread that calls these methods must have a lock on that object.
     */
 class Shared{
@@ -88,4 +90,9 @@ public class Main
 	}
 }
 
+/*
+Note ::
+When you call sleep() method on a thread, thread goes to sleep with holding the object lock with it. 
+But, if you call the wait() method, the thread releases the object lock and goes for sleep. This is the main difference between wait() and sleep() methods.
+*/
 
