@@ -1,5 +1,5 @@
 //Java Concepts
-/*Static and instance variable in java*/
+/*Static and instance variable in Java*/
 class Employee {
     static String companyName = "Infosys";
     int salary;
